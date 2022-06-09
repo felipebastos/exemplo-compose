@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+    backend:
+        build: ./backend
+        container_name: backend_exemplo
+        restart: always
+        ports:
+            - "8080:80"
+ 
+
